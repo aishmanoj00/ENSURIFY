@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance, The Smart Way</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(69, 110, 171);
+        }
+        header {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-start; /* Align to the left */
+            padding-left: 20px; /* Add padding to the left */
+        }
+        .headings {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px; /* Space between links */
+        }
+        .headings li {
+            margin: 0;
+            padding: 0;
+        }
+        .headings a {
+            text-decoration: none;
+            color: rgb(69, 110, 171);
+            font-weight: bold;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .title {
+            font-size: 4em;
+            font-weight: bold;
+            margin-top: 60px; /* Adjust for the header */
+        }
+        .slogan {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.5em;  /* Smaller font size */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="headings">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="title">Ensurify</div>
+    <div class="container">
+        <!-- Make sure the image path is correct -->
+        <img src="LOGO.jpg" alt="LOGO.jpg" class="background-image">
+        <div class="slogan">Insurance, The Smart Way</div>
+    </div>
+</body>
+</html>
